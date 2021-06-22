@@ -4,7 +4,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 
 import Hero from "components/hero/BackgroundAsImage.js";
-import Features from "components/features/DashedBorderSixFeatures";
+import Services from "components/blogs/ThreeColSimpleWithImageAndDashedBorder";
 import MainFeature from "components/features/TwoColSingleFeatureWithStats2.js";
 import MainFeature2 from "components/features/TwoColWithTwoFeaturesAndButtons.js";
 import Portfolio from "components/cards/PortfolioTwoCardsWithImage.js";
@@ -16,11 +16,11 @@ import Footer from "components/footers/MiniCenteredFooter.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 
 export default () => (
-  <AnimationRevealPage> 
-    <Hero /> 
-    {/* <MainFeature />
-    <Features />
-    <MainFeature2 />
+  <AnimationRevealPage>
+    <Hero />
+    <MainFeature />
+    <Services />
+    {/*<MainFeature2 />
     <Portfolio />
     <Testimonial
       subheading="Testimonials"
@@ -66,7 +66,7 @@ export default () => (
       }
     />
     <Blog />
-    <ContactUsForm />
-    <Footer /> */}
+    <ContactUsForm />*/}
+    <Footer /> 
   </AnimationRevealPage>
 );

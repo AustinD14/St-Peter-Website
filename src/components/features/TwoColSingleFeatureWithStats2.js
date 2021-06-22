@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import StatsIllustrationSrc from "images/stats-illustration.svg";
+import StPeterLogo from "images/stpeterslogo.png";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 
 const Container = tw.div`relative`;
@@ -40,16 +40,16 @@ const DecoratorBlob = styled(SvgDotPattern)(props => [
 ]);
 
 export default ({
-  subheading = "Our Track Record",
+  subheading = "Available 24/7",
   heading = (
     <>
-      We have been doing this <wbr /> since <span tw="text-primary-500">1999.</span>
+      Your <span tw="text-primary-500">Health </span>is our <span tw="text-primary-500">Priority.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "St, Peter's Hospice Care Inc. offers hospice care that will help you and your loved ones appreciate the time you've left in the face of an incurable condition. We want you to live to the fullest every single day. We concentrate on improving quality of life by treating pain and symptoms. If urgent needs arise we are available 24/7. We will answer every question with patience, ease your fears and provide you and your family with the advice, medical care and comfort you deserve. Our patients and families are thus able to experience what matters most.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
-  imageSrc = StatsIllustrationSrc,
+  imageSrc = StPeterLogo,
   imageCss = null,
   imageContainerCss = null,
   imageDecoratorBlob = false,
@@ -62,17 +62,7 @@ export default ({
   //Change the statistics variable as you like, add or delete objects
   const defaultStatistics = [
     {
-      key: "Clients",
-      value: "2282+"
     },
-    {
-      key: "Projects",
-      value: "3891+"
-    },
-    {
-      key: "Awards",
-      value: "1000+"
-    }
   ];
 
   if (!statistics) statistics = defaultStatistics;

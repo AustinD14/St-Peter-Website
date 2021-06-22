@@ -46,38 +46,36 @@ const DecoratorBlob2 = tw(
 )`-z-10 absolute top-0 left-0 w-48 h-48 transform -translate-x-32 translate-y-full opacity-25`;
 
 export default ({
-  subheading = "Blog",
-  heading = <>We Love <span tw="text-primary-500">Writing.</span></>,
-  description = "Some amazing blog posts that are written by even more amazing people.",
+  subheading = "",
+  heading = <>Our <span tw="text-primary-500">Services.</span></>,
+  description = "",
 
 }) => {
   const blogPosts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      author: "Adam Wathan",
-      category: "SEO",
-      title: "Optimizing your website for your main keyword",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://reddit.com"
+        "https://images.squarespace-cdn.com/content/v1/5943fd95b3db2b2f36a5f6c6/1502900484903-FJ32OCR3SKIIXX4ADCZP/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Carolyn+Piepho+-+Chaplain+home+care+visit.jpg?format=300w",
+      author: "",
+      category: "",
+      title: "HOME HOSPICE CARE",
+      description: "Comprehensive hospice services wherever you call home..",
+      url: ""
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1479660095429-2cf4e1360472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      author: "Owais Khan",
-      category: "Advertising",
-      title: "Creating The perfect advertisement campaign",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com"
+        "https://images.squarespace-cdn.com/content/v1/5943fd95b3db2b2f36a5f6c6/1503493825008-2XA4G076IGJZENSO9799/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Carolyn+Piepho+-+Bench+by+pond+at+house.jpg?format=300w",
+      author: "",
+      category: "",
+      title: "HOSPICE FACILITIES",
+      description: "A tranquil environment in a homelike setting..",
+      url: ""
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1579869847514-7c1a19d2d2ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-      author: "Steve Schoger",
-      category: "Social Media",
-      title: "Efficient management of your social media assets",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com"
+        "https://images.squarespace-cdn.com/content/v1/5943fd95b3db2b2f36a5f6c6/1502200753135-AJ9MM2B6LLJRHHN3Y7ET/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/image-asset.jpeg?format=300w",
+      title: "GRIEF SUPPORT SERVICES",
+      description: "A variety of grief support programs are offered to the general public and hospice families alike.",
+      url: ""
     }
   ];
   return (
@@ -96,17 +94,12 @@ export default ({
                 <Details>
                   <MetaContainer>
                     <Meta>
-                      <UserIcon />
-                      <div>{post.author}</div>
-                    </Meta>
-                    <Meta>
-                      <TagIcon />
-                      <div>{post.category}</div>
+                      
                     </Meta>
                   </MetaContainer>
                   <Title>{post.title}</Title>
                   <Description>{post.description}</Description>
-                  <Link href={post.url}>Read Post</Link>
+                  <Link href={post.url}>Learn More</Link>
                 </Details>
               </Card>
             </Column>
