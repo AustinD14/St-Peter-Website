@@ -20,7 +20,6 @@ export default () => (
     <Hero />
     <MainFeature />
     <Services />
-    WOW
     {/*<MainFeature2 />
     <Portfolio />
     <Testimonial
