@@ -69,7 +69,7 @@ export default () => {
       <NavLink href="#">Services</NavLink>
       <NavLink href="#">Careers</NavLink>
       <NavLink href="#">Contact us</NavLink>
-      <NavLink href="#">About</NavLink>
+      <NavLink href="/AboutUs">About</NavLink>
       <NavLink href="#">FAQ</NavLink>
     </NavLinks>,
     <NavLinks key={2}>

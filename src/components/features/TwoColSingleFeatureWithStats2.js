@@ -48,7 +48,7 @@ export default ({
   ),
   description = "St, Peter's Hospice Care Inc. offers hospice care that will help you and your loved ones appreciate the time you've left in the face of an incurable condition. We want you to live to the fullest every single day. We concentrate on improving quality of life by treating pain and symptoms. If urgent needs arise we are available 24/7. We will answer every question with patience, ease your fears and provide you and your family with the advice, medical care and comfort you deserve. Our patients and families are thus able to experience what matters most.",
   primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "",
   imageSrc = StPeterLogo,
   imageCss = null,
   imageContainerCss = null,

@@ -72,15 +72,16 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">About</NavLink>
-      <NavLink href="/#">Blog</NavLink>
-      <NavLink href="/#">Pricing</NavLink>
-      <NavLink href="/#">Contact Us</NavLink>
-      <NavLink href="/#" tw="lg:ml-12!">
-        Login
-      </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink>
-    </NavLinks>
+      <NavLink href="#">Home</NavLink>
+      <NavLink href="#">Services</NavLink>
+      <NavLink href="#">Careers</NavLink>
+      <NavLink href="#">Contact us</NavLink>
+      <NavLink href="/AboutUs">About</NavLink>
+      <NavLink href="#">FAQ</NavLink>
+    </NavLinks>,
+    <NavLinks key={2}>
+      <PrimaryLink href="/#">Refer A Patient</PrimaryLink>
+    </NavLinks>,
   ];
 
   const { showNavLinks, animation, toggleNavbar } = useAnimatedNavToggler();
