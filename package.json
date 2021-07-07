@@ -1,6 +1,5 @@
 {
   "name": "st-peters-website",
-  "homepage": "https://austind14.github.io/St-Peter-Website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -9,12 +9,12 @@ import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <Router>
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route path="/AboutUs" component={AboutUs} />
         </Switch>
-  </HashRouter >
+  </Router>
   )
 }
 
