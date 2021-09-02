@@ -8,6 +8,10 @@ import { ReactComponent as UserIcon } from "feather-icons/dist/icons/user.svg";
 import { ReactComponent as TagIcon } from "feather-icons/dist/icons/tag.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-3.svg";
+import image1 from "../../images/St-Peters-Images/bret-kavanaugh-MIfUp3FA5ek-unsplash.jpg";
+import image2 from "../../images/St-Peters-Images/freestocks-_s3_remoPFM-unsplash.jpg";
+import image3 from "../../images/St-Peters-Images/liz-brenden-WPUJjQsXsvc-unsplash.jpg";
+
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -53,29 +57,26 @@ export default ({
 }) => {
   const blogPosts = [
     {
-      imageSrc:
-        "https://images.squarespace-cdn.com/content/v1/5943fd95b3db2b2f36a5f6c6/1502900484903-FJ32OCR3SKIIXX4ADCZP/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Carolyn+Piepho+-+Chaplain+home+care+visit.jpg?format=300w",
+      imageSrc: image1,
       author: "",
       category: "",
       title: "HOME HOSPICE CARE",
       description: "Comprehensive hospice services wherever you call home..",
-      url: ""
+      url: "/Services"
     },
     {
-      imageSrc:
-        "https://images.squarespace-cdn.com/content/v1/5943fd95b3db2b2f36a5f6c6/1503493825008-2XA4G076IGJZENSO9799/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Carolyn+Piepho+-+Bench+by+pond+at+house.jpg?format=300w",
+      imageSrc: image2,
       author: "",
       category: "",
       title: "HOSPICE FACILITIES",
       description: "A tranquil environment in a homelike setting..",
-      url: ""
+      url: "/Services"
     },
     {
-      imageSrc:
-        "https://images.squarespace-cdn.com/content/v1/5943fd95b3db2b2f36a5f6c6/1502200753135-AJ9MM2B6LLJRHHN3Y7ET/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/image-asset.jpeg?format=300w",
+      imageSrc: image3,
       title: "GRIEF SUPPORT SERVICES",
       description: "A variety of grief support programs are offered to the general public and hospice families alike.",
-      url: ""
+      url: "/Services"
     }
   ];
   return (

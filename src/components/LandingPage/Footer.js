@@ -39,25 +39,11 @@ export default () => {
       <Content>
         <FiveColumns>
           <Row>
-              <CompanyAddress>
-                <LogoText>Address</LogoText>
-                16501 Sherman Way, Suite 215. Van Nuys, CA 91406
-                <LogoText>Phone</LogoText>
-                (818) 394-9535
-                <LogoText>Fax</LogoText>
-                (818) 285-8104
-                <LogoText>After Hours Fax:</LogoText>
-                (818) 479-0472
-                <LogoText>Email: </LogoText>
-                stpetershospicecareinc@gmail.com
-              </CompanyAddress>
-          </Row>
-          <Row>
             <LogoContainer>
               {/* <LogoImg src={logo} /> */}
               <LogoText>St. Peter's Hospice Care</LogoText>
             </LogoContainer>
-
+            16501 Sherman Way, Suite 215. Van Nuys, CA 91406
             <LinksContainer>
               <Link href="#">Home</Link>
               <Link href="#">Services</Link>
@@ -81,6 +67,18 @@ export default () => {
               &copy; Copyright 2021, St. Peter's Hospice Care Inc. All Rights
               Reserved.
             </CopyrightText>
+          </Row>
+          <Row>
+            <CompanyAddress>
+              <LogoText>Phone</LogoText>
+              (818) 394-9535
+              <LogoText>Fax</LogoText>
+              (818) 285-8104
+              <LogoText>After Hours Fax:</LogoText>
+              (818) 479-0472
+              <LogoText>Email: </LogoText>
+              stpetershospicecareinc@gmail.com
+            </CompanyAddress>
           </Row>
         </FiveColumns>
       </Content>

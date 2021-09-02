@@ -63,28 +63,11 @@ const StyledResponsiveVideoEmbed = styled(ResponsiveVideoEmbed)`
 `;
 
 export default () => {
-  const navLinks = [
-    <NavLinks key={1}>
-      <NavLink href="#">Home</NavLink>
-      <NavLink href="#">Services</NavLink>
-      <NavLink href="#">Careers</NavLink>
-      <NavLink href="#">Contact us</NavLink>
-      <NavLink href="/AboutUs">About</NavLink>
-      <NavLink href="#">FAQ</NavLink>
-    </NavLinks>,
-    <NavLinks key={2}>
-      <PrimaryLink href="/#">Refer A Patient</PrimaryLink>
-    </NavLinks>,
-    <NavLinks key={3}>
-      
-    </NavLinks>,
-  ];
-
   return (
     <Container>
       <OpacityOverlay />
       <HeroContainer>
-        <StyledHeader links={navLinks} />
+        <StyledHeader/>
         <TwoColumn>
           <LeftColumn>
             <Notification>We are Here to Help.</Notification>

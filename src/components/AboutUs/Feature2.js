@@ -47,7 +47,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "St. Peter's Hospice Care Inc. is a team of Health Care Professionals that was established in 2017 with the primary goal of providing appropriate services to relieve physical, mental, emotional and spiritual suffering of our patients and those who care for them and to promote the dignity and independence of our patients to the greatest extent possible, to promote quality of life when the quantity can no longer be extended as they deal with end of life challenges. \n ",
+  description ="Our mission is to meet the needs of terminally ill patients, their families and loved ones with compassion and dignity by providing quality palliative (comfort) care focusing on the emotional, social, physical and spiritual support that is needed. Dedicated to the welfare of our patients, our family of skilled, compassionate medical staffers will work with your doctor to meet your specific needs. Care is provided for patient and family 24 hours a day, 7 days a week. Hospice care can be given in the patient's home, hospital, nursing home, board and care or private hospice facility.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,

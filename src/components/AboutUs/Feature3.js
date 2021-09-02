@@ -47,7 +47,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "St. Peter's Hospice Care Inc. is a team of Health Care Professionals that was established in 2017 with the primary goal of providing appropriate services to relieve physical, mental, emotional and spiritual suffering of our patients and those who care for them and to promote the dignity and independence of our patients to the greatest extent possible, to promote quality of life when the quantity can no longer be extended as they deal with end of life challenges. \n ",
+  description ="St. Peters Hospice Care, Inc. knows what exceptional service truly means. Through personalized guidance and immense support, our team of licensed professionals are here to ensure that all your health related needs are met.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,

@@ -4,18 +4,19 @@ import tw from "twin.macro";
 import styled from "styled-components"; //eslint-disable-line
 import { css } from "styled-components/macro"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/FiveColumnWithInputForm.js";
+import Footer from "components/LandingPage/Footer";
 import MainFeature1 from "components/AboutUs/Feature1";
-// import MainFeature2 from "components/features/TwoColSingleFeatureWithStats.js";
-// import MainFeature3 from "components/features/TwoColSingleFeatureWithStats2.js";
-import Features from "components/features/ThreeColSimple.js";
-// import Features from "components/features/ThreeColWithSideImage.js";
-import TeamCardGrid from "components/cards/ProfileThreeColGrid.js";
+import MainFeature2 from "components/AboutUs/Feature2";
+import MainFeature3 from "components/AboutUs/Feature3";
+import License from "components/AboutUs/License";
 
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
-import CustomerLoveIconImage from "images/simple-icon.svg";
-import HeaderMainImage from "images/St-Peters-Images/4c6e84_053bfc751be14154b1e3d5ef45a9cf3b_mv2.png"; 
+import Medicare from "images/St-Peters-Images/medicare.png";
+import JointCommission from "images/St-Peters-Images/joint-commision.png";
+import CDPH from "images/St-Peters-Images/cdph.png";
+
+import HeaderMainImage from "images/St-Peters-Images/4c6e84_053bfc751be14154b1e3d5ef45a9cf3b_mv2.png";
+import image2 from "images/St-Peters-Images/visual-stories-micheile-PpZasS086os-unsplash.jpg";
+import image3 from "images/St-Peters-Images/nick-karvounis-og_p3b9bJ7E-unsplash.jpg";
 
 const Subheading = tw.span`uppercase tracking-wider text-sm`;
 export default () => {
@@ -25,43 +26,38 @@ export default () => {
       <MainFeature1
         subheading={"Quality of Care is what matters most."}
         heading="St. Peter's Hospice Care Inc."
-        buttonRounded={false}
-        primaryButtonText="See Portfolio"
-        imageSrc= {HeaderMainImage}
+        imageSrc={HeaderMainImage}
       />
-      <MainFeature1
-        subheading={<Subheading>Our Vision</Subheading>}
-        heading="We aim to disrupt the design space."
-        buttonRounded={false}
-        primaryButtonText="Contact Us"
-        imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
+      
+      <MainFeature2
+        subheading={<Subheading>Our Mission</Subheading>}
+        heading=""
+        imageSrc={image2}
         textOnLeft={false}
       />
-      <Features
+      <MainFeature3
         subheading={<Subheading>Our Values</Subheading>}
-        heading="We follow these."
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        heading=""
+        imageSrc={image3}
+      />
+      <License
+        heading="License and Certifications"
+        description="Pursuant to Title IV of the Civil Rights Act of 1964, Section 504 of the
+        Rehabilitation Act of 1973 and the Discrimination Act of 1975.
+        St. Peter's Hospice Care, Inc. does not discriminate in the Provision
+        of Service on the basis of race, color, national origin, sex and disability of age."
         cards={[
           {
-            imageSrc: SupportIconImage,
-            title: "24/7 Support",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            imageSrc: Medicare,
           },
           {
-            imageSrc: ShieldIconImage,
-            title: "Strong Teams",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            imageSrc: JointCommission,
           },
           {
-            imageSrc: CustomerLoveIconImage,
-            title: "Customer Satisfaction",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            imageSrc: CDPH,
           },
         ]}
         linkText=""
-      />
-      <TeamCardGrid 
-        subheading={<Subheading>Our Team</Subheading>}
       />
       <Footer />
     </AnimationRevealPage>
