@@ -15,7 +15,7 @@ import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
 
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none`}
-  ${DesktopNavLinks} ${NavLink}, ${LogoLink} {
+  ${DesktopNavLinks} , ${LogoLink} {
     ${tw`text-gray-100 hover:border-gray-300 hover:text-gray-300`}
   }
   ${NavToggle}.closed {
