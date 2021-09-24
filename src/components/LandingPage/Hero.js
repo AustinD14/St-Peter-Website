@@ -24,7 +24,7 @@ const StyledHeader = styled(Header)`
 `;
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover`}
-  background-image: url("https://images.unsplash.com/photo-1532329683184-6ffd13057d1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1055&q=80");
+  background-image: url("static/media/photo-1532329683184-6ffd13057d1c.eb0f0804.jpg");
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-primary-500 opacity-25`;
