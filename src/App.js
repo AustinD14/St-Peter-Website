@@ -6,6 +6,7 @@ import LandingPage from "components/LandingPage";
 import AboutUs from "components/AboutUs";
 import Services from "components/Services";
 import Careers from "components/Careers";
+import Reviews from "components/Reviews";
 import StaticImageLoader from "components/StaticImageLoader"
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -19,7 +20,8 @@ function App() {
           <Route path="/AboutUs" component={AboutUs} />
           <Route path="/Services" component={Services} />
           <Route path="/Careers" component={Careers} />
-          <Route path="/images/Careers1" component={StaticImageLoader}/>
+          <Route path="/Reviews" component={Reviews} />
+          <Route path="/images/statics" component={StaticImageLoader}/>
         </Switch>
   </Router>
   )
