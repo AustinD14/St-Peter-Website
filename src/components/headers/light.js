@@ -75,7 +75,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/">Home</NavLink>
       <NavLink href="/Services">Services</NavLink>
       <NavLink href="/Careers">Careers</NavLink>
-      <NavLink href="#">Reviews</NavLink>
+      <NavLink href="/Reviews">Reviews</NavLink>
       <NavLink href="/AboutUs">About</NavLink>
       <NavLink href="#">FAQ</NavLink>
     </NavLinks>,
