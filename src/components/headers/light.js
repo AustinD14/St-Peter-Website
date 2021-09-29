@@ -77,10 +77,10 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/Careers">Careers</NavLink>
       <NavLink href="/Reviews">Reviews</NavLink>
       <NavLink href="/AboutUs">About</NavLink>
-      <NavLink href="#">FAQ</NavLink>
+      <NavLink href="/Faqs">FAQ</NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="/#">Refer A Patient</PrimaryLink>
+      <PrimaryLink href="https://forms.gle/Qqb92k2i6Bga2YXw8">Refer A Patient</PrimaryLink>
     </NavLinks>,
   ];
 

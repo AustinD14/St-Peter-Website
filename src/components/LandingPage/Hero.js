@@ -76,7 +76,7 @@ export default () => {
               <br />
               <SlantedBackground>When Care Matters</SlantedBackground>
             </Heading>
-            <PrimaryAction>Read Customer Stories</PrimaryAction>
+            <a href= "/Reviews"> <PrimaryAction>Read Customer Stories</PrimaryAction> </a >
           </LeftColumn>
           <RightColumn></RightColumn>
         </TwoColumn>
