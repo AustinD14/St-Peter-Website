@@ -7,6 +7,7 @@ import AboutUs from "components/AboutUs";
 import Services from "components/Services";
 import Careers from "components/Careers";
 import Reviews from "components/Reviews";
+import FAQS from "components/FAQ";
 import StaticImageLoader from "components/StaticImageLoader"
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Services" component={Services} />
           <Route path="/Careers" component={Careers} />
           <Route path="/Reviews" component={Reviews} />
+          <Route path="/Faqs" component={FAQS} />
           <Route path="/images/statics" component={StaticImageLoader}/>
         </Switch>
   </Router>
