@@ -45,7 +45,7 @@ export default () => {
           <Heading>
           Join our team today!
           </Heading>
-          <a href="https://forms.gle/UckfCkfUVFgX9xpC9"><PrimaryAction>Apply Now!</PrimaryAction></a>
+          <a href="https://forms.gle/UckfCkfUVFgX9xpC9" target="_blank"><PrimaryAction>Apply Now!</PrimaryAction></a>
         </Content>
       </HeroContainer>
     </Container>
