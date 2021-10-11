@@ -14,6 +14,9 @@ import { ReactComponent as StarIconBase } from "images/star-icon.svg";
 import { ReactComponent as ArrowLeftIcon } from "images/arrow-left-3-icon.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-3-icon.svg";
 import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
+import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+
+const PrimaryButton = tw(PrimaryButtonBase)`mt-8 md:mt-10 text-sm inline-block mx-auto md:mx-0`;
 
 const Row = tw.div`flex flex-col md:flex-row justify-between items-center`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
@@ -134,6 +137,9 @@ export default ({
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
+            <PrimaryButton as="a" href={"https://forms.gle/ByCfu4SFTLxfKaWE8" } target="_blank">
+              {"Submit a Review"}
+            </PrimaryButton>
             <TestimonialSlider arrows={false} ref={setSliderRef}>
               {testimonials.map((testimonial, index) => (
                 <Testimonial key={index}>
